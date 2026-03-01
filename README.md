@@ -1,4 +1,4 @@
-# Informacion-Turistica-Zaragoza
+# Información-Turistica-Zaragoza
 Zaragoza es historia romana, arte mudéjar, barroquismo impresionante y una de las mejores rutas de tapas de España.
 Web informativa estática y responsive creada con Bootstrap 5 para promocionar Zaragoza como destino turístico en 2026.  
 El sitio destaca el lema oficial de turismo de la ciudad: **"Zaragoza, la ciudad donde todo sucede"**, enfatizando su rico patrimonio (Basílica del Pilar, Palacio de la Aljafería), gastronomía (Ciudad Creativa UNESCO), el río Ebro y una agenda cultural vibrante todo el año.  
