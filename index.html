@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaragoza 2026 – La ciudad donde todo sucede</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS propio -->
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://picsum.photos/id/1040/1920/1080') center/cover no-repeat;
+            height: 90vh;
+            min-height: 600px;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+        }
+        .btn-zgz {
+            background-color: #c8102e; /* rojo aragonés */
+            border: none;
+            font-weight: bold;
+        }
+        .btn-zgz:hover {
+            background-color: #a00d24;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+            transition: all 0.3s;
+        }
+        footer {
+            background-color: #1a1a1a;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Zaragoza 2026</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#que-ver">Qué ver</a></li>
+                <li class="nav-item"><a class="nav-link" href="#imprescindibles">Imprescindibles</a></li>
+                <li class="nav-item"><a class="nav-link" href="#eventos">Eventos 2026</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header id="inicio" class="hero text-center">
+    <div class="container">
+        <h1 class="display-3 fw-bold">ZARAGOZA 2026</h1>
+        <p class="lead fs-3">La ciudad donde todo sucede</p>
+        <p class="fs-4 mb-4">Patrimonio, gastronomía, río Ebro y fiestas inolvidables</p>
+        <a href="#imprescindibles" class="btn btn-zgz btn-lg px-5">Descubre Zaragoza</a>
+    </div>
+</header>
+
+<!-- SECCIÓN 1: QUÉ VER EN ZARAGOZA (grid 2 columnas) -->
+<section id="que-ver" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">¿Por qué visitar Zaragoza?</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="lead">Zaragoza es historia romana, arte mudéjar, barroquismo impresionante y una de las mejores rutas de tapas de España.</p>
+                <p>En 2026 la ciudad refuerza su imagen como destino vibrante todo el año: grandes eventos, Ciudad Creativa UNESCO de la Gastronomía y una agenda cultural inagotable.</p>
+                <ul class="list-group list-group-flush mt-3">
+                    <li class="list-group-item">Basílica del Pilar – icono mundial</li>
+                    <li class="list-group-item">Palacio de la Aljafería – joya mudéjar</li>
+                    <li class="list-group-item">El Tubo – paraíso de las tapas</li>
+                    <li class="list-group-item">Fiestas del Pilar – 10 al 18 octubre 2026</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="https://picsum.photos/id/1039/800/600" class="img-fluid rounded shadow" alt="Basílica del Pilar y Plaza">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCIÓN 2: IMPRESCINDIBLES (grid 3 columnas con cards) -->
+<section id="imprescindibles" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Imprescindibles 2026</h2>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="https://picsum.photos/id/1043/600/400" class="card-img-top" alt="Basílica del Pilar">
+                    <div class="card-body">
+                        <h5 class="card-title">Basílica de Nuestra Señora del Pilar</h5>
+                        <p class="card-text">El corazón de Zaragoza. Sube a la torre para vistas espectaculares del Ebro y la ciudad.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <span class="badge bg-danger">Icono UNESCO</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="https://picsum.photos/id/870/600/400" class="card-img-top" alt="Aljafería">
+                    <div class="card-body">
+                        <h5 class="card-title">Palacio de la Aljafería</h5>
+                        <p class="card-text">Obra maestra mudéjar del siglo XI. Sede de las Cortes de Aragón. ¡No te pierdas los techos!</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <span class="badge bg-danger">Patrimonio Mundial</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="https://picsum.photos/id/106/600/400" class="card-img-top" alt="El Tubo tapas">
+                    <div class="card-body">
+                        <h5 class="card-title">El Tubo – Ruta de tapas</h5>
+                        <p class="card-text">Calles llenas de bares con pinchos, vermut y ambiente único. ¡Gastronomía de primer nivel!</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <span class="badge bg-danger">Ciudad Creativa UNESCO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCIÓN EXTRA: EVENTOS 2026 -->
+<section id="eventos" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Eventos destacados 2026</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <ul class="list-group list-group-flush lead">
+                    <li class="list-group-item">Festival y Feria de la Garnacha → 4–7 junio 2026</li>
+                    <li class="list-group-item">Fiestas del Pilar → 10–18 octubre 2026</li>
+                    <li class="list-group-item">Zaragoza Luce – arte lumínico en el Casco Histórico</li>
+                    <li class="list-group-item">Conciertos y festivales todo el año (Viva Suecia, Natos y Waor…)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Zaragoza 2026</h5>
+                <p>La ciudad donde todo sucede – Turismo de Zaragoza</p>
+            </div>
+            <div class="col-md-3">
+                <h6>Enlaces rápidos</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#que-ver" class="text-white">Qué ver</a></li>
+                    <li><a href="#imprescindibles" class="text-white">Imprescindibles</a></li>
+                    <li><a href="#eventos" class="text-white">Eventos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-md-end">
+                <p>© 2026 Práctica Diseño Web con Bootstrap</p>
+                <p><small>Tu Nombre y Apellidos</small></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
