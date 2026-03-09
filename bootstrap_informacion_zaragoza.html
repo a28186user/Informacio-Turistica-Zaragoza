@@ -1,0 +1,150 @@
+<!-- BITAN PARTIDO PEÑA -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaragoza 2026 – La ciudad donde todo sucede</title>
+    
+ <!-- Esta línea de HTML se utiliza para incluir la hoja de estilos de Bootstrap en una página web. -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+
+</head>
+<body>
+
+<!-- MENÚ DE NAVEGACIÓN - Solo clases de Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Zaragoza 2026</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#que-ver">Qué ver</a></li>
+                <li class="nav-item"><a class="nav-link" href="#imprescindibles">Imprescindibles</a></li>
+                <li class="nav-item"><a class="nav-link" href="#eventos">Eventos</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO - Todo con clases de Bootstrap (sin CSS propio) -->
+<header id="inicio" class="bg-dark text-white" style="margin-top: 56px;">
+    <!-- Uso style solo para el margin-top (para compensar el menú fijo) -->
+    <!-- La imagen de fondo la pongo con bg image de Bootstrap 5 -->
+    <div class="container-fluid py-5" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://www.revigorate.com/images/zaragoza-cathedral1.jpg') center/cover; min-height: 70vh;">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="display-3 fw-bold">ZARAGOZA 2026</h1>
+                    <p class="lead fs-3">La ciudad donde todo sucede</p>
+                    <p class="fs-4">Patrimonio, río Ebro, tapas y fiestas inolvidables</p>
+                    <a href="#imprescindibles" class="btn btn-danger btn-lg mt-3 px-5">Descubre Zaragoza</a>
+                    <!-- btn-danger es el rojo de Bootstrap -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- SECCIÓN QUÉ VER -->
+<section id="que-ver" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">¿Por qué visitar Zaragoza?</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <p class="lead">Historia romana, arte mudéjar, barroquismo y una de las mejores rutas de tapas de España.</p>
+                <p>En 2026: Ciudad Creativa UNESCO de la Gastronomía, grandes eventos y agenda cultural todo el año.</p>
+                <ul class="list-group list-group-flush mt-3">
+                    <li class="list-group-item">Basílica del Pilar</li>
+                    <li class="list-group-item">Palacio de la Aljafería</li>
+                    <li class="list-group-item">El Tubo – tapas</li>
+                    <li class="list-group-item">Fiestas del Pilar</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Zaragoza_in_Spain_%28plus_Canarias%29.svg" class="img-fluid rounded" alt="Basílica del Pilar">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Sección de  Tarjetas -->
+<section id="imprescindibles" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Imprescindibles 2026</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://unbuendiaenzaragoza.com/wp-content/uploads/2024/06/Catedral-Basilica_de_Nuestra_Senora_del_Pilar_Front-scaled.jpg" class="card-img-top" alt="Basílica del Pilar">
+                    <div class="card-body">
+                        <h5 class="card-title">Basílica del Pilar</h5>
+                        <p class="card-text">Icono de Zaragoza. Vistas espectaculares desde la torre.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Aljafer%C3%ADa_Palace.jpg" class="card-img-top" alt="Aljafería">
+                    <div class="card-body">
+                        <h5 class="card-title">Palacio de la Aljafería</h5>
+                        <p class="card-text">Joya mudéjar del siglo XI. Patrimonio Mundial.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://elblog.bintercanarias.com/hubfs/c09a09618677c7fa0bc2a13fa8cc9f88.jpg" class="card-img-top" alt="El Tubo">
+                    <div class="card-body">
+                        <h5 class="card-title">El Tubo – Tapas</h5>
+                        <p class="card-text">Pinchos, vermut y ambiente único.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCIÓN EVENTOS -->
+<section id="eventos" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Eventos destacados 2026</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <ul class="list-group list-group-flush lead">
+                    <li class="list-group-item">Festival y Feria de la Garnacha → 4–7 junio</li>
+                    <li class="list-group-item">Fiestas del Pilar → 10–18 octubre</li>
+                    <li class="list-group-item">Vive Latino Zaragoza → 4–5 septiembre</li>
+                    <li class="list-group-item">Zaragoza Luce y conciertos todo el año</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+        <p class="mb-1">Zaragoza 2026 – La ciudad donde todo sucede</p>
+        <p class="mb-1 small">Turismo de Zaragoza</p>
+        <p class="small mb-0">© 2026 Práctica Bootstrap</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
